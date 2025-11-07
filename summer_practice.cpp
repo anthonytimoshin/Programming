@@ -22,10 +22,10 @@ using namespace std;
 *                      ВХОДНЫЕ ДАННЫЕ                         *
 **************************************************************/
 
-//const string path = "non_existent_file.txt";                          // несуществующий файл
-//const string path = "empty_file.txt";        // пустой файл
-//const string path = "info.txt";              // файл с корректными исходными данными
-//const string path = "incorrect.txt";         // файл с некорректными исходными данными
+//const string path = "non_existent_file.txt";       // несуществующий файл
+//const string path = "empty_file.txt";              // пустой файл
+//const string path = "info.txt";                    // файл с корректными исходными данными
+//const string path = "incorrect.txt";               // файл с некорректными исходными данными
 
 /**************************************************************
 *                         КОНСТАНТЫ                           *
@@ -40,10 +40,10 @@ const int max_len = 100;        // максимальное количество
 struct Aircraft     // Структура для хранения данных о приземлившихся самолетах
 {
     string flight_number;                  // номер рейса
-    string tail_number;                 // бортовой номер
-    string cargo_weight;                // вес груза
+    string tail_number;                    // бортовой номер
+    string cargo_weight;                   // вес груза
     string box_quantity;                   // количество контейнеров
-    int id;                             // индекс самолета
+    int id;                                // индекс самолета
 };
 
 struct indexSort            // Структура для индексной сортировки
