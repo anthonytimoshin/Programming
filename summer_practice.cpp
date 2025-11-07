@@ -23,9 +23,9 @@ using namespace std;
 **************************************************************/
 
 //const string path = "non_existent_file.txt";                          // несуществующий файл
-//const string path = "/Users/anton/code/stepik/empty_file.txt";        // пустой файл
-//const string path = "/Users/anton/code/stepik/info.txt";              // файл с корректными исходными данными
-const string path = "/Users/anton/code/stepik/incorrect.txt";         // файл с некорректными исходными данными
+//const string path = "empty_file.txt";        // пустой файл
+//const string path = "info.txt";              // файл с корректными исходными данными
+//const string path = "incorrect.txt";         // файл с некорректными исходными данными
 
 /**************************************************************
 *                         КОНСТАНТЫ                           *
